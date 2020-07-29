@@ -1,6 +1,6 @@
 {
   "name": "@inpyjamas/renovate-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "shareable renovate config",
   "scripts": {
     "validate": "renovate-config-validator",
@@ -65,7 +65,6 @@
           "semanticCommitType": "chore",
           "semanticCommitScope": "deps",
           "automerge": false
-
         },
         {
           "groupName": "devDependencies-non-major",
