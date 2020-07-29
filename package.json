@@ -43,7 +43,7 @@
           "semanticCommitScope": "deps"
         },
         {
-          "groupName": "dependencies (non-major)",
+          "groupName": "dependencies-non-major",
           "depTypeList": [
             "dependencies"
           ],
@@ -55,7 +55,7 @@
           "automerge": false
         },
         {
-          "groupName": "devDependencies (major)",
+          "groupName": "devDependencies-major",
           "depTypeList": [
             "devDependencies"
           ],
@@ -63,10 +63,12 @@
             "major"
           ],
           "semanticCommitType": "chore",
-          "semanticCommitScope": "deps"
+          "semanticCommitScope": "deps",
+          "automerge": false
+
         },
         {
-          "groupName": "devDependencies (non-major)",
+          "groupName": "devDependencies-non-major",
           "automerge": true,
           "depTypeList": [
             "devDependencies"
