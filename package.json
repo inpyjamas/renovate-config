@@ -27,6 +27,7 @@
         "every 2 weeks on Monday before 7am"
       ],
       "timezone": "Europe/Berlin",
+      "semanticCommits": "enabled",
       "lockFileMaintenance": {
         "enabled": true
       },
@@ -82,6 +83,6 @@
     }
   },
   "devDependencies": {
-    "renovate": "23.18.2"
+    "renovate": "23.26.2"
   }
 }
