@@ -54,7 +54,7 @@ jobs:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
         run: npx semantic-release
   publish-gpr:
-    needs: build
+    needs: release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
