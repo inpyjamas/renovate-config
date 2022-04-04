@@ -4,11 +4,11 @@
 name: Node.js CI
 on:
   push:
-    branches: [main, staging]
+    branches: [master, staging]
     tags:
       - "v*"
   pull_request:
-    branches: [main, staging]
+    branches: [master, staging]
 
 jobs:
   build:
