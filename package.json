@@ -16,73 +16,18 @@
     "url": "https://github.com/inpyjamas/renovate-config/issues"
   },
   "homepage": "https://github.com/inpyjamas/renovate-config#readme",
-  "renovate-config": {
-    "default": {
-      "extends": [
-        "config:base",
-        "group:monorepos",
-        ":ignoreModulesAndTests"
-      ],
-      "schedule": [
-        "every 2 weeks on Monday before 7am"
-      ],
-      "timezone": "Europe/Berlin",
-      "semanticCommits": "enabled",
-      "lockFileMaintenance": {
-        "enabled": true
-      },
-      "automergeType": "branch",
-      "packageRules": [
-        {
-          "groupName": "renovate-meta",
-          "updateTypes": [
-            "lockFileMaintenance",
-            "pin"
-          ],
-          "semanticCommitType": "chore",
-          "semanticCommitScope": "deps"
-        },
-        {
-          "groupName": "dependencies-non-major",
-          "depTypeList": [
-            "dependencies"
-          ],
-          "updateTypes": [
-            "patch",
-            "minor"
-          ],
-          "semanticCommitType": "deps",
-          "automerge": false
-        },
-        {
-          "groupName": "devDependencies-major",
-          "depTypeList": [
-            "devDependencies"
-          ],
-          "updateTypes": [
-            "major"
-          ],
-          "semanticCommitType": "chore",
-          "semanticCommitScope": "deps",
-          "automerge": false
-        },
-        {
-          "groupName": "devDependencies-non-major",
-          "automerge": true,
-          "depTypeList": [
-            "devDependencies"
-          ],
-          "updateTypes": [
-            "patch",
-            "minor"
-          ],
-          "semanticCommitType": "chore",
-          "semanticCommitScope": "deps"
-        }
-      ]
-    }
-  },
   "devDependencies": {
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/commit-analyzer": "9.0.2",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/npm": "9.0.1",
+    "@semantic-release/release-notes-generator": "10.0.3",
+    "cz-conventional-changelog": "3.3.0",
     "renovate": "31.13.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
