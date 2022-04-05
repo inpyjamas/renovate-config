@@ -1,5 +1,5 @@
 module.exports = {
-  branches: ["main", "next"],
+  branches: ["master", "next"],
   npmPublish: true,
   dryRun: false,
   plugins: [
