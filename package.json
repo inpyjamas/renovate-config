@@ -23,7 +23,7 @@
     "@semantic-release/npm": "9.0.1",
     "@semantic-release/release-notes-generator": "10.0.3",
     "cz-conventional-changelog": "3.3.0",
-    "renovate": "31.13.1"
+    "renovate": "31.29.0"
   },
   "config": {
     "commitizen": {
