@@ -1,6 +1,6 @@
 {
   "name": "@inpyjamas/renovate-config",
-  "version": "0.1.2",
+  "version": "1.0.1",
   "description": "shareable renovate config",
   "scripts": {
     "validate": "renovate-config-validator",
