@@ -1,5 +1,5 @@
 {
-  "name": "@inpyjamas/renovate-config",
+  "name": "@technologiestiftung/renovate-config",
   "version": "1.0.1",
   "description": "shareable renovate config",
   "scripts": {
@@ -28,7 +28,7 @@
   "renovate-config": {
     "default": {
       "extends": [
-        "github>inpyjamas/renovate-config"
+        "github>technologiestiftung/renovate-config"
       ]
     }
   },
