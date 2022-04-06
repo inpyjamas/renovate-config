@@ -1,4 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["local>inpyjamas/renovate-config#next"]
+  "extends": ["local>technologiestiftung/renovate-config#next"]
 }
