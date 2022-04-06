@@ -1,4 +1,4 @@
-# @inpyjamas/renovate-config
+# @technologiestiftung/renovate-config
 
 sharable renovate config for all my projects.
 
