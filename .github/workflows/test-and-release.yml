@@ -4,11 +4,12 @@
 name: Node.js CI
 on:
   push:
-    branches: [master, staging]
+    branches: [master, next]
     tags:
       - "v*"
   pull_request:
-    branches: [master, staging]
+    branches: [master, next]
+  workflow_dispatch: {}
 
 jobs:
   build:
@@ -17,7 +18,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x]
+        node-version: [14.x, 16.x, 18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
       - name: Checkout technologiestiftung/stadtpuls-test-utils
