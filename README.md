@@ -1,6 +1,6 @@
 # @technologiestiftung/renovate-config
 
-sharable renovate config for all my projects.
+sharable renovate config for all our projects.
 
 ## Usage
 
