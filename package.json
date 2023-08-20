@@ -23,7 +23,7 @@
     "@semantic-release/npm": "9.0.1",
     "@semantic-release/release-notes-generator": "10.0.3",
     "cz-conventional-changelog": "3.3.0",
-    "renovate": "34.94.0"
+    "renovate": "34.160.0"
   },
   "renovate-config": {
     "default": {
