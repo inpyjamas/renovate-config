@@ -7,17 +7,20 @@
   "automergeType": "branch",
   "packageRules": [
     {
-      "groupName": "renovate-meta",
-      "semanticCommitType": "chore",
-      "semanticCommitScope": "deps",
-      "matchUpdateTypes": ["lockFileMaintenance", "pin"]
-    },
-    {
       "groupName": "dependencies-non-major",
       "semanticCommitType": "deps",
       "automerge": false,
       "matchDepTypes": ["dependencies"],
-      "matchUpdateTypes": ["patch", "minor"]
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "pinDigest",
+        "digest",
+        "lockFileMaintenance",
+        "rollback",
+        "bump"
+      ]
     },
     {
       "groupName": "devDependencies-major",
@@ -33,7 +36,16 @@
       "semanticCommitType": "chore",
       "semanticCommitScope": "deps",
       "matchDepTypes": ["devDependencies"],
-      "matchUpdateTypes": ["patch", "minor"]
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "pinDigest",
+        "digest",
+        "lockFileMaintenance",
+        "rollback",
+        "bump"
+      ]
     }
   ]
 }
