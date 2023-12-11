@@ -23,13 +23,6 @@
     "renovate": "37.89.2",
     "semantic-release": "22.0.10"
   },
-  "renovate-config": {
-    "default": {
-      "extends": [
-        "github>inpyjamas/renovate-config"
-      ]
-    }
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
