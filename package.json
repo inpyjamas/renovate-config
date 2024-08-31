@@ -20,8 +20,8 @@
     "@technologiestiftung/semantic-release-config": "1.2.4",
     "cz-conventional-changelog": "3.3.0",
     "prettier": "3.3.3",
-    "renovate": "38.18.12",
-    "semantic-release": "24.0.0"
+    "renovate": "38.59.2",
+    "semantic-release": "24.1.0"
   },
   "config": {
     "commitizen": {
